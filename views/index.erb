@@ -1,17 +1,35 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>CRM Main</title>
+  <title>Aila's CRM</title>
   </head>
   <body>
-    <h1>Welcome to <%= @crm_app_name %></h1>
-    <p>Main menu</p>
-      <ul>
-      <li><a href="/contacts">View all contacts</a></li>
-      <li><a href="/contacts/new">Add contact</a></li>
-      <!-- please complete me with links to other actions -->
-      </ul>
+    <div class="row">
+    <div class="col-sm-6 col-md-4">
+    <div class="header">
+      <img src="https://s-media-cache-ak0.pinimg.com/736x/f7/74/43/f77443f1ef54fde064d6e2f0e39e9e4a.jpg" alt="green leaves plant">
+        <div class="caption">
+        <h1><%= @crm_app_name %></h1>
+        </div>
+    </div>
+    </div>
+    </div>
+    <p>Main Menu</p>
+      <div class="col-xs-6 col-md-3">
+        <a href="/contacts/new" class="thumbnail">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/c2/8c/1e/c28c1e7c340a79f69eee41285ba3a863.jpg" alt="green leaves plants">Add
+        </a>
+        <a href="/contacts/edit" class="thumbnail">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/c2/17/5e/c2175ea5ae24b90d1d86336e1b11a4aa.jpg" alt="green leaves plants">Edit
+        </a>
+        <a href="/contacts/delete" class="thumbnail">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/24/4b/4e/244b4e959e54e4f44e87a3e7728baa90.jpg" alt="tea plantation japan">Delete
+        </a>
+        <a href="/contacts" class="thumbnail">
+          <img src="https://s-media-cache-ak0.pinimg.com/736x/c9/48/56/c94856325278ff6fa170731cf3906bb2.jpg" alt="green plants flower">Display All
+        </a>
+      </div>
   </body>
 </html>
 

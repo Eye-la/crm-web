@@ -14,12 +14,12 @@ class Contact # kind of acting like a model
     puts "First name: #{first_name}"
     puts "Last name: #{last_name}"
     puts "Email: #{email}"
-    puts "Notes: #{notes}"  
+    puts "Notes: #{notes}"
   end
 
 
 	#check for blank value
-  # def inspect 	
+  # def inspect
 	# end
 
 end

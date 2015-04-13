@@ -1,1 +1,14 @@
 /* con't style sheet */
+
+.header {
+ width:1000px;                     /* width of image */
+ height:100px;                    /* height of image */
+ color:#ffffff;                   /* text color */
+ font-size:12px;                  /* font size */
+ font-weight:bold;                /* font weight */
+ font-family:Arial;               /* font family */
+ padding-left:5px;                /* left position of text */
+ padding-top:84px;                /* top position of text */
+ border: 0
+ overflow:hidden;                 /* so div won't change size */
+ }

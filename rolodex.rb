@@ -3,7 +3,7 @@ class Rolodex # kind of acting like a controller
 	attr_accessor :contacts, :id
 
 	def initialize
-		@contacts = []	
+		@contacts = []
 		@id = 1000
 	end
 
@@ -13,16 +13,16 @@ class Rolodex # kind of acting like a controller
     puts "ID: #{@id}"
 		@id += 1
 	end
-		
+
 	def find(contact_id)
     @contacts.find { |contact| contact.id == contact_id }
   end
 
-  def delete(contact_id)
-    @contacts.delete(contact_id)
+  def delete(contact)
+    @contacts.delete(contact)
   end
 
-	def display		
+	def display
     puts "#{contact.id}, #{contact.first_name}, #{contact.last_name}, #{contact.email}, #{contact.notes}"
 	end
 
