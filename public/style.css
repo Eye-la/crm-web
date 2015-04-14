@@ -1,14 +1,38 @@
-/* con't style sheet */
+/*---------------- CRM Stylesheet ----------------- */
 
-.header {
- width:1000px;                     /* width of image */
- height:100px;                    /* height of image */
- color:#ffffff;                   /* text color */
- font-size:12px;                  /* font size */
- font-weight:bold;                /* font weight */
- font-family:Arial;               /* font family */
- padding-left:5px;                /* left position of text */
- padding-top:84px;                /* top position of text */
- border: 0
- overflow:hidden;                 /* so div won't change size */
- }
+.title {
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+}
+
+.link-box {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  position: absolute;
+  color: white;
+  background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+
+
+
+footer {
+  color: white;
+  text-align: center;
+  height:30px;
+  margin-top:30px;
+  padding:5px 0;
+  width:100%;
+}

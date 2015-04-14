@@ -4,32 +4,38 @@
     <meta charset="UTF-8">
   <title>Aila's CRM</title>
   </head>
+
   <body>
-    <div class="row">
-    <div class="main-header">
-    <div class="header">
-      <img src="https://s-media-cache-ak0.pinimg.com/736x/f7/74/43/f77443f1ef54fde064d6e2f0e39e9e4a.jpg" alt="green leaves plant">
-        <div class="caption">
-        <h1><%= @crm_app_name %></h1>
-        </div>
+    <div class="header-box">
+      <img src="main-edit.jpg" alt="green leaves plant">
+      <div class="title">
+        <h2><span><%= @crm_app_name %></span></h2>
+      </div>
     </div>
-    </div>
-    </div>
-    <p>Main Menu</p>
-      <div class="main-nav">
-        <a href="/contacts/new" class="thumbnail">
-          <img src="https://s-media-cache-ak0.pinimg.com/736x/c2/8c/1e/c28c1e7c340a79f69eee41285ba3a863.jpg" alt="green leaves plants">Add
-        </a>
-        <a href="/contacts/edit" class="thumbnail">
-          <img src="https://s-media-cache-ak0.pinimg.com/736x/c2/17/5e/c2175ea5ae24b90d1d86336e1b11a4aa.jpg" alt="green leaves plants">Edit
-        </a>
-        <a href="/contacts/delete" class="thumbnail">
-          <img src="https://s-media-cache-ak0.pinimg.com/736x/24/4b/4e/244b4e959e54e4f44e87a3e7728baa90.jpg" alt="tea plantation japan">Delete
-        </a>
-        <a href="/contacts" class="thumbnail">
-          <img src="https://s-media-cache-ak0.pinimg.com/736x/c9/48/56/c94856325278ff6fa170731cf3906bb2.jpg" alt="green plants flower">Display All
-        </a>
+
+    <h3>Main Menu</h3>
+      <div class="link-box">
+        <a href="/contacts/new">
+        <img src="add-edit.jpg" alt="green leaves plants"><h4>Add</h4></a>
+      </div>
+
+      <div class="link-box">
+        <a href="/contacts/edit">
+        <img src="edit-edit.jpg" alt="green leaves plants"><h4>Edit</h4></a>
+      </div>
+
+      <div class="link-box">
+        <a href="/contacts/delete">
+        <img src="delete-edit.jpg" alt="green leaves plants"><h4>Delete</h4></a>
+      </div>
+
+      <div class="link-box">
+        <a href="/contacts">
+        <img src="display-edit.jpg" alt="green leaves plants"><h4>Display All</h4></a>
       </div>
   </body>
+  <footer>
+    <p>&copy; Aila You 2015</p>
+  </footer>
 </html>
 
